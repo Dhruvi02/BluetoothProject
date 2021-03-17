@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+
+<!--    Display whether BT is available or not-->
+    <TextView
+        android:id="@+id/txt_statusBT"
+        android:minWidth="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:gravity="center_horizontal" />
+
+
+<!--    BT icon to dispplay BT is ON or OFF-->
+    <ImageView
+        android:id="@+id/img_BT"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        />
+
+<!--    ON button-->
+    <Button
+        android:id="@+id/btn_on"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="200dp"
+        android:text="Turn ON"/>
+
+<!--    OFF button-->
+    <Button
+        android:id="@+id/btn_off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="200dp"
+        android:text="Turn OFF"/>
+
+<!--    Discover button-->
+    <Button
+        android:id="@+id/btn_discoverable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="200dp"
+        android:text="Discoverable"/>
+
+<!--    Paired-->
+    <Button
+        android:id="@+id/btn_paired"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="200dp"
+        android:text="Paired"/>
+
+<!--    Show paired devices-->
+    <TextView
+        android:id="@+id/txt_paired"
+        android:minWidth="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+<!--    Chat window-->
+    <Button
+        android:id="@+id/btn_chat_window"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="200dp"
+        android:text="Open Chat Window"/>
+
+
+</LinearLayout>
